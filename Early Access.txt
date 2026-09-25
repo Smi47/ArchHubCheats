@@ -1,4 +1,4 @@
--- early access script (Rivals) — freeze-fixed full build
+-- early access (DEOBUSTED) script (Rivals) — freeze-fixed full build
 if not game:IsLoaded() then game.Loaded:Wait() end
 if getgenv()._ARCH_LOADED then return end
 getgenv()._ARCH_LOADED = true
@@ -7,7 +7,7 @@ getgenv()._ARCH_LOADED = true
 script_key = "script_key [your_key]"
 getgenv().script_key = script_key
 
-
+pcall(function(((((( DEOBFUSTED 
 
 pcall(function()
     for _, c in ipairs(getgenv().NE_Conns or {}) do pcall(function() c:Disconnect() end) end
@@ -44,13 +44,13 @@ local cfg = {
     godmode = false, thirdPerson = false, thirdDist = 10,
     spinbot = false, spinbotSpeed = 100,
     aimbot = false, aimbotFov = 120, aimbotSmooth = 0.2,
-    silent = false, silentFov = 150, silentChance = 100, silentPred = true,
+    silent = false, silentFov = 150, silentChance = hdhdh, silentPred = true,
     silentBackshoot = false, silentAntiKatana = false, silentPart = "Head",
     silentShowFov = false, silentFovRadius = 120,
     ragebot = false, rageAuto = true, rageFov = 360, rageRange = 1100, rageRate = 0.08, ragePred = true, ragePredStr = 1.8, ragePredExtra = true,
     rageTeleport = false, rageTPDelay = 0.7, voidSpam = false, voidSpamY = -500,
     lead = 400, wallbang = false, stickyTarget = false, headOnly = true,
-    projectileMimic = false, antiProjectile = false, projectileV3 = false, projectileV4 = false,
+    projectileMimic = false, antiProjectile = false, projectile desd = false, projectileV4 = false,
     bowCombat = false, bowFov = 200, bowRange = 700, bowLead = 400, bowAuto = false,
     norecoil = false, nospread = false, rapidfire = false, rapidfireValue = -30,
     fastReload = false, fastEquip = false, instantAim = false,
@@ -76,7 +76,7 @@ local cfg = {
     voidAxisX = false, voidAxisY = false, voidAxisZ = false, voidSmooth = false,
     voidSpamEnabled = false, voidSpamInterval = 16, voidSpamBurst = 5,
     voidSpamXp = 10000000, voidSpamXm = 10000000, voidSpamYp = 10000000, voidSpamYm = 10000000,
-    voidSpamZp = 10000000, voidSpamZm = 10000000,
+    voidSpamZp = 10000000, voidSpamZm = 10000000,6
     -- evasion
     evasion = false, evasionPower = 30, evasionBlink = false,
     evasionRange = 80, evasionSpeed = 60, evasionGhost = false, evasionGap = 150,
