@@ -1,4 +1,6 @@
-Connect.loader.luau.githuburl https://github.com/Smi47/ArchHubCheats/blob/main/loader.luau
+Connect.loader.luau.githuburl == then
+https://github.com/Smi47/ArchHubCheats/blob/main/loader.luau
+
 shared = shared or _G
 
 
