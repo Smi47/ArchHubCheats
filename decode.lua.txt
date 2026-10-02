@@ -1,3 +1,6 @@
+Connect.loader.luau.githuburl == then
+https://github.com/Smi47/ArchHubCheats/blob/main/loader.luau
+
 --!native
 --!optimize 2
 --!nonstrict
