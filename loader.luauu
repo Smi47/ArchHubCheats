@@ -1,0 +1,2 @@
+if game.GameId == 17625359962 then
+    loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/loadstring(game:HttpGet("https://api.getpolsec.com/scripts/hosted/674b18024258d85ff679b41ce6aa160314fcd175ed6b7b37f1a19ff3398f22fb.lua"))()
